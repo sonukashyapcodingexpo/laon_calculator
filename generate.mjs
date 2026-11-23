@@ -215,26 +215,35 @@ page({
   description: "Prime Solution on Katari Hill Road, Gaya helps you compare personal, business, home, LAP, car and e-commerce loans and calculate the EMI before you apply.",
   active: "home",
   body: `<section class="hero">
-    <div class="wrap hero-layout">
+    <div class="wrap">
       <div class="hero-copy">
         <p class="eyebrow">Loan desk · Katari Hill Road, Gaya</p>
         <h1>We match the loan to the purpose, then get the papers ready.</h1>
         <p class="lede">Prime Solution sits with families and shop owners in Gaya. We explain personal, business, home, property, car, and e-commerce loans in plain language, and we help you apply only when the file is complete.</p>
         <p class="hindi" lang="hi">काम साफ है: सही लोन चुनना, कागज़ तैयार करना, फिर बैंक या एनबीएफसी तक ले जाना।</p>
-        <ul class="work-list">
-          <li><strong>Choose the product</strong><span>A home or a property you already own is not the same as a personal loan.</span></li>
-          <li><strong>Name the cost</strong><span>You see the EMI and the papers before anyone asks you to sign.</span></li>
-          <li><strong>Walk in or message</strong><span>Office on Katari Hill Road, or WhatsApp 9031565062.</span></li>
-        </ul>
         <div class="actions hero-actions">
           <a class="btn btn-navy" href="#loans">See the six loans</a>
           <a class="btn btn-gold" href="${WA}">WhatsApp the office</a>
           <a class="btn btn-ghost" href="${TEL}">Call 9031565062</a>
         </div>
       </div>
-      <figure class="hero-mark">
-        <img src="assets/logo.jpg" width="1024" height="682" alt="Prime Solution. Your Growth Our Mission. Loan, Finance, Success Together.">
-      </figure>
+      <div class="hero-board">
+        <article>
+          <span>01</span>
+          <h2>Choose the product</h2>
+          <p>A home or a property you already own is not the same as a personal loan.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h2>Name the cost</h2>
+          <p>You see the EMI and the papers before anyone asks you to sign.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h2>Walk in or message</h2>
+          <p>The desk is on Katari Hill Road. Call or WhatsApp 9031565062.</p>
+        </article>
+      </div>
     </div>
   </section>
   <section class="section tight bg-paper" style="padding-top:28px">
