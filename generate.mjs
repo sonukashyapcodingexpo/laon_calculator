@@ -215,6 +215,7 @@ page({
   description: "Prime Solution on Katari Hill Road, Gaya helps you compare personal, business, home, LAP, car and e-commerce loans and calculate the EMI before you apply.",
   active: "home",
   body: `<section class="hero">
+    <div class="hero-photo" role="img" aria-label="People meeting around a work table"></div>
     <div class="wrap">
       <div class="hero-copy">
         <p class="eyebrow">Loan desk · Katari Hill Road, Gaya</p>
